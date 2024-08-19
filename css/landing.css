@@ -265,6 +265,44 @@
 	font-weight: 400;
 }
 
+/* Explore Ai section */
+.indebth__title{
+	font-size: 3rem;
+	line-height: 4rem;
+	width: 30.5rem;
+	text-align: center;
+	font-weight: 600;
+	margin: 0 auto;
+	margin-bottom: 8rem;
+}
+.indebth__grid{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 2.5rem;
+}
+.indebth__subject{
+	text-align: center;
+	padding: 3.6rem .75rem;
+	position: relative;
+}
+.indebth__subject::before{
+	content: "";
+	width: 100%;
+	border-top: .2rem solid #6b7280;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.indebth__subject-title{
+	font-size: 1.25rem;
+	font-weight: 600;
+	line-height: 1.75rem;
+	margin-bottom: 1.5rem;
+}
+.indebth__subject-subtitle{
+	line-height: 2.5rem;
+}
+
 /* Guide Section */
 .guide {
 	margin: 8rem 0;
