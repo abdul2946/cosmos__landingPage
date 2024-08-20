@@ -268,13 +268,16 @@
 }
 
 .navbar_button {
-	border: 0.125rem solid #d1d5db;
+	padding: .75rem 1.5rem;
+	background-color: #0f766e;
+	color: white;
+	font-weight: 700;
+	display: flex;
+	border: none;
+	gap: 1rem;
 	border-radius: 0.25rem;
-	background-color: white;
-	padding: 0.625rem;
-	font-size: 1.125rem;
-	font-weight: 400;
-	cursor: pointer;
+	outline: none;
+	align-items: center;
 }
 
 /* Main section */
