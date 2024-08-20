@@ -1192,10 +1192,18 @@
 	margin-bottom: 1.75rem;
 }
 .pricing__modal-close {
-	color: white;
-	background-color: #000000;
-	border: none;
+	color: #000000;
+	border: .125rem solid #000000;
+	background-color: white;
 	padding: 0.5rem 1.75rem;
 	border-radius: 0.25rem;
 	font-weight: 600;
+	cursor: pointer;
+	transition: 0.3s;
 }
+.pricing__modal-close:hover{
+	background-color: #000000;
+	color: #ffffff;
+}
+
+
