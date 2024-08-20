@@ -1015,7 +1015,31 @@
 	color: #656565;
 	line-height: 1.5rem;
 }
-
+.test-expert__section{
+	margin: 5rem 0;
+}
+.expert__title{
+	font-size: 1.5rem;
+	line-height: 2.125rem;
+	font-weight: 700;
+	margin: 2rem 0;
+}
+.expert__details-section{
+	display: flex;
+	justify-content: space-between;
+}
+.expert__image{
+	width: 17.5rem;
+	height: 15rem;
+	overflow: hidden;
+	object-fit: cover;
+	object-position: top;
+}
+.expert__details{
+	width: 59.2rem;
+	color: #656565;
+	line-height: 1.5rem;
+}
 
 
 
