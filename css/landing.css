@@ -80,7 +80,7 @@
 		width: 12.5rem;
 	}
 
-	.client__image-3  {
+	.client__image-3 {
 		max-width: 19rem;
 	}
 
@@ -208,9 +208,10 @@
 		margin: 0 auto;
 	}
 
-	.client__image-3  {
+	.client__image-3 {
 		max-width: 100%;
 	}
+
 	.test-library__grid {
 		grid-template-columns: 1fr;
 	}
@@ -919,6 +920,7 @@
 	font-size: 0.875rem;
 	font-weight: 700;
 }
+
 .test__card-button {
 	width: 100%;
 	border: 0.125rem solid #0f766e;
@@ -934,7 +936,7 @@
 
 
 /* Test Page */
-.goto__test-library{
+.goto__test-library {
 	display: flex;
 	margin: 2rem 0;
 	align-items: center;
@@ -942,32 +944,37 @@
 	font-weight: 700;
 	line-height: 1.25rem;
 }
-.test-page__title{
-	width:47rem;
+
+.test-page__title {
+	width: 47rem;
 	font-size: 3rem;
 	line-height: 4rem;
 	font-weight: 600;
 	text-align: center;
 	margin: 4rem auto;
 }
-.test-page__assessment-section{
+
+.test-page__assessment-section {
 	margin: 6rem auto;
 	display: flex;
 	gap: 2.5rem;
 	justify-content: space-between;
 }
-.test__assessment-title{
+
+.test__assessment-title {
 	font-weight: 700;
 	font-size: 1.125rem;
 	margin-bottom: 1.25rem;
 }
-.test__assessment-duration{
+
+.test__assessment-duration {
 	color: #6B7280;
 	font-weight: 400;
 	font-size: 0.875rem;
 	margin: 0.75rem 0;
 }
-.test__assessment-timer{
+
+.test__assessment-timer {
 	background-color: #E0F2FE;
 	padding: 0.75rem 1.5rem;
 	font-weight: 700;
@@ -977,44 +984,53 @@
 	border-radius: 0.125rem;
 	margin-bottom: 1rem;
 }
-.test__assessment-mini-card{
+
+.test__assessment-mini-card {
 	width: 20.125rem;
 	border: .125rem solid #d1d5db;
 	border-radius: 0.25rem;
 	padding: 0.75rem;
 	margin: .75rem 0;
 }
-.test__assessment-instructions{
+
+.test__assessment-instructions {
 	border: .125rem solid #d1d5db;
 	border-radius: 0.25rem;
 	padding: 2.5rem;
 	width: 54.5rem;
 }
-.test__assessment-list-title{
+
+.test__assessment-list-title {
 	margin-bottom: 1rem;
 	font-weight: 700;
 	line-height: 1.3rem;
 }
-.test__assessment-list{
+
+.test__assessment-list {
 	margin: 1rem;
 	margin-left: 1.75rem;
 }
-.test__assessment-list li{
+
+.test__assessment-list li {
 	line-height: 2.125rem;
 }
-.test-page__about{
+
+.test-page__about {
 	margin: 5rem 0;
 }
-.test__about-title{
+
+.test__about-title {
 	font-size: 1.5rem;
 	line-height: 2.125rem;
 	font-weight: 700;
 	margin: 2rem 0;
 }
-.test__about-details{
+
+.test__about-details {
 	color: #656565;
 	line-height: 1.5rem;
 }
+
 .pricing_cnt {
 	display: flex;
 	justify-content: center;
