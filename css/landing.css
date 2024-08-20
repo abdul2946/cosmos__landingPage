@@ -42,7 +42,7 @@
 		line-height: 4rem;
 		font-size: 3rem;
 	}
-	.hero_details{
+	.hero_details {
 		margin: 2rem 0;
 	}
 
@@ -787,8 +787,8 @@
 	color: white;
 	font-size: 0.875rem;
 }
-.footer__social-icons img{
-	margin: 0 .25rem;
+.footer__social-icons img {
+	margin: 0 0.25rem;
 }
 .footer__social-icons span {
 	color: #ffffff;
@@ -973,6 +973,45 @@
 }
 
 /* Test Page */
+@media (min-width: 720px) {
+	.test-page__title {
+		width: 47rem;
+	}
+	.test-page__assessment-section {
+		display: flex;
+		gap: 2.5rem;
+		justify-content: space-between;
+	}
+	.test__assessment-instructions {
+		width: 54.5rem;
+	}
+	.expert__details-section {
+		display: flex;
+		justify-content: space-between;
+	}
+	.expert__details {
+		width: 59.2rem;
+	}
+	.test__assessment-mini-card{
+		width: 20.125rem;
+	}
+}
+@media (max-width: 719px) {
+	.expert__image{
+		margin: 2rem auto;
+	}
+	.test__assessment-title{
+		text-align: center;
+	}
+	.test__assessment-duration{
+		text-align: center;
+	}
+	.test__assessment-timer{
+		margin: 2rem auto;
+		display: flex;
+		justify-content: center;
+	}
+}
 .goto__test-library {
 	display: flex;
 	margin: 2rem 0;
@@ -982,7 +1021,6 @@
 	line-height: 1.25rem;
 }
 .test-page__title {
-	width: 47rem;
 	font-size: 3rem;
 	line-height: 4rem;
 	font-weight: 600;
@@ -991,9 +1029,6 @@
 }
 .test-page__assessment-section {
 	margin: 6rem auto;
-	display: flex;
-	gap: 2.5rem;
-	justify-content: space-between;
 }
 .test__assessment-title {
 	font-weight: 700;
@@ -1012,12 +1047,11 @@
 	font-weight: 700;
 	color: #0369a1;
 	font-size: 0.875rem;
-	display: inline-block;
+	width:6rem;
 	border-radius: 0.125rem;
 	margin-bottom: 1rem;
 }
 .test__assessment-mini-card {
-	width: 20.125rem;
 	border: 0.125rem solid #d1d5db;
 	border-radius: 0.25rem;
 	padding: 0.75rem;
@@ -1036,7 +1070,6 @@
 	border: 0.125rem solid #d1d5db;
 	border-radius: 0.25rem;
 	padding: 2.5rem;
-	width: 54.5rem;
 }
 .test__assessment-list-title {
 	margin-bottom: 1rem;
@@ -1058,7 +1091,7 @@
 	line-height: 2.125rem;
 	font-weight: 700;
 	margin: 2rem 0;
-	color: #3D3D3D;
+	color: #3d3d3d;
 }
 .test__about-details {
 	color: #656565;
@@ -1072,12 +1105,9 @@
 	line-height: 2.125rem;
 	font-weight: 700;
 	margin: 2rem 0;
-	color: #3D3D3D;
+	color: #3d3d3d;
 }
-.expert__details-section {
-	display: flex;
-	justify-content: space-between;
-}
+
 .expert__image {
 	width: 17.5rem;
 	height: 15rem;
@@ -1086,7 +1116,6 @@
 	object-position: top;
 }
 .expert__details {
-	width: 59.2rem;
 	color: #656565;
 	line-height: 1.5rem;
 }
@@ -1203,7 +1232,7 @@
 }
 .pricing__modal-close {
 	color: #000000;
-	border: .125rem solid #000000;
+	border: 0.125rem solid #000000;
 	background-color: white;
 	padding: 0.5rem 1.75rem;
 	border-radius: 0.25rem;
@@ -1211,9 +1240,7 @@
 	cursor: pointer;
 	transition: 0.3s;
 }
-.pricing__modal-close:hover{
+.pricing__modal-close:hover {
 	background-color: #000000;
 	color: #ffffff;
 }
-
-
