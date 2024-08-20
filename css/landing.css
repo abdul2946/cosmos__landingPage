@@ -1058,6 +1058,7 @@
 	line-height: 2.125rem;
 	font-weight: 700;
 	margin: 2rem 0;
+	color: #3D3D3D;
 }
 .test__about-details {
 	color: #656565;
@@ -1071,6 +1072,7 @@
 	line-height: 2.125rem;
 	font-weight: 700;
 	margin: 2rem 0;
+	color: #3D3D3D;
 }
 .expert__details-section {
 	display: flex;
