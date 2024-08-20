@@ -17,21 +17,25 @@
 	background: #00000039;
 	/* overflow: hidden; */
 }
+
 @media (min-width:1440px) {
-	*{
-		font-size: 16px;
+	* {
+		font-size: 13px;
 	}
 }
+
 @media (min-width: 960px) and (max-width:1439) {
-	*{
+	* {
 		font-size: 14px;
 	}
 }
+
 @media (min-width:640px) and (max-width:959px) {
-	*{
+	* {
 		font-size: 12px;
 	}
 }
+
 /* Large secreen media query */
 @media (min-width: 640px) {
 	.main {
@@ -1004,19 +1008,18 @@
 	padding: 0.75rem;
 	margin: 0.75rem 0;
 }
-<<<<<<< HEAD
 
-=======
-.test__assessment-mini-card p{
+.test__assessment-mini-card p {
 	font-size: 1rem;
 	font-weight: 600;
 	margin-bottom: 0.5rem;
 }
-.test__assessment-mini-card span{
+
+.test__assessment-mini-card span {
 	color: #6B7280;
 	font-weight: 600;
 }
->>>>>>> 3e9c86b7d34ff4834f019cb249b77939198b7eb4
+
 .test__assessment-instructions {
 	border: 0.125rem solid #d1d5db;
 	border-radius: 0.25rem;
@@ -1117,7 +1120,8 @@
 	align-items: start;
 	transition-duration: 0.3s;
 }
-.pricing__card-1:hover{
+
+.pricing__card-1:hover {
 	scale: 105%;
 }
 
@@ -1132,7 +1136,8 @@
 	align-items: start;
 	transition-duration: 0.3s;
 }
-.pricing__card-2:hover{
+
+.pricing__card-2:hover {
 	scale: 105%;
 }
 
@@ -1214,20 +1219,21 @@
 	outline: none;
 }
 
-.pricing__modal{
+.pricing__modal {
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%,-50%);
+	transform: translate(-50%, -50%);
 	padding: 1rem 1.75rem;
 	border: none;
 	border-radius: 0.25rem;
 	box-shadow: .3rem 1rem 2rem #656565;
 }
 
-.pricing__modal-content{
+.pricing__modal-content {
 	margin-bottom: 1.75rem;
 }
-.pricing__modal-close{
+
+.pricing__modal-close {
 	color: white;
 	background-color: #000000;
 	border: none;
