@@ -109,6 +109,7 @@
 		line-height: 4rem;
 		font-weight: 600;
 		margin-bottom: 1.5rem;
+		margin-top: 5rem;
 	}
 
 	.footer__feedback {
@@ -317,6 +318,7 @@
 	border-radius: 0.25rem;
 	outline: none;
 	align-items: center;
+	cursor: pointer;
 }
 
 /* Main section */
@@ -373,6 +375,7 @@
 	font-weight: 700;
 	padding: 0.75rem 1.5rem;
 	border-radius: 0.25rem;
+	cursor: pointer;
 }
 
 .hero_button:focus {
@@ -735,18 +738,18 @@
 	color: #bf5540;
 	font-size: 0.875rem;
 	text-transform: uppercase;
-	margin-bottom: 1rem;
+	margin-bottom: 1.5rem;
 }
 
 .footer__links {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 2rem;
+	margin-bottom: 4rem;
 	align-items: start;
 }
 
 .footer__subsciption {
-	margin: 2rem 0;
+	margin: 4rem 0;
 }
 
 .footer__subsciption-box {
@@ -774,7 +777,7 @@
 .footer__subsciption-icon {
 	position: absolute;
 	right: 1.5rem;
-	top: 2rem;
+	top: 1.8rem;
 	cursor: pointer;
 }
 .footer__social-icons {
@@ -783,6 +786,9 @@
 	align-items: baseline;
 	color: white;
 	font-size: 0.875rem;
+}
+.footer__social-icons img{
+	margin: 0 .25rem;
 }
 .footer__social-icons span {
 	color: #ffffff;
@@ -847,6 +853,7 @@
 	width: min(90%, 46.875rem);
 	text-align: center;
 	margin: 2rem auto;
+	margin-top: 5rem;
 }
 
 .test-library__subtitle {
@@ -962,6 +969,7 @@
 	font-weight: 700;
 	color: #0f766e;
 	margin-top: 1rem;
+	cursor: pointer;
 }
 
 /* Test Page */
