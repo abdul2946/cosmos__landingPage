@@ -7,37 +7,25 @@
 	font-family: "Open Sans", sans-serif;
 	font-size: 10px;
 	scroll-behavior: smooth;
-	/* border: 1px solid green; */
 }
-
-.client__review-grid {
-	width: 100%;
-	padding: 0 1rem;
-	overflow: hidden;
-	background: #00000039;
-	/* overflow: hidden; */
-}
-
 @media (min-width:1440px) {
-	* {
-		font-size: 13px;
+	*{
+		font-size: 16px;
 	}
 }
-
-@media (min-width: 960px) and (max-width:1439) {
-	* {
+@media (min-width:1440px) and (max-width:1919px) {
+	*{
 		font-size: 14px;
 	}
 }
-
-@media (min-width:640px) and (max-width:959px) {
-	* {
+@media (min-width:720px) and (max-width:1439px) {
+	*{
 		font-size: 12px;
 	}
 }
 
 /* Large secreen media query */
-@media (min-width: 640px) {
+@media (min-width: 720px) {
 	.main {
 		width: min(81.25rem, 90%);
 		margin: 0 auto;
@@ -142,7 +130,7 @@
 	}
 }
 
-@media (max-width: 639px) {
+@media (max-width: 719px) {
 	.main {
 		padding: 0 0.5rem;
 	}
