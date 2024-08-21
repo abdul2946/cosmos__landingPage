@@ -1,141 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-		<link rel="stylesheet" href="../css/landing.css" />
-	</head>
-	<body>
-		<!-- Navbar -->
-		<nav class="navbar">
-			<div class="navbar_links">
-				<img src="../public/logo.svg" alt="logo" />
-				<a href="./landingPage.html" class="nav_link">Home</a>
-				<a href="./testLibrary.html" class="nav_link active_link"
-					>Test Library</a
-				>
-				<a href="" class="nav_link">Resource</a>
-				<a href="./pricing.html" class="nav_link">Pricing</a>
-				<a href="./faq.html" class="nav_link">FAQ</a>
-			</div>
-			<div class="navbar_user">
-				<button class="navbar_button">Login <img src="../public/icons/rightArrow.svg" alt=""></button>
-			</div>
-		</nav>
 
-		<!-- main section -->
-		<main class="main">
-			<div class="test-library__section">
-				<h1 class="test-library__title">
-					Discover a Comprehensive Library of Tests for Every Role
-				</h1>
-				<p class="test-library__subtitle">
-					Explore and select from a wide range of expertly crafted test to
-					create the perfect assessment for your candidates
-				</p>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/landing.css" />
+</head>
 
-				<div class="test-library__search-section">
-					<input type="text" class="test-library__search-input" placeholder="Search"/>
-					<select name="" id="" class="test-library__select">
-						<option value="">Hello</option>
-					</select>
-				</div>
-				<div class="test-library__grid-wrapper">
-					<div class="test-library__grid">
-						<div class="test__card">
-							<p class="test__card-title">JavaScript Proficiency Test</p>
-							<div class="test__card-timer"><img src="../public/icons/clock.svg" alt=""> <span>10 min</span></div>
-							<p class="test__card-details">Evaluate a candidate's knowledge in core JavaScript concepts, including ES6 syntax, DOM manipulation, and asynchronous programming.</p>
-							<p class="test__card-difficulty">Difficulty</p>
-							<p class="test__card-difficulty-level">Intermediate</p>
-							<p class="test__card-qestions">Number of Questions</p>
-							<p class="test__card-qestions-numbers">25 Questions</p>
-							<a href="./testPage.html" class="test__card-button">Details</a>
+<body>
+	<!-- Navbar -->
+	<nav class="navbar">
+		<div class="navbar_links">
+			<img src="../public/logo.svg" alt="logo" />
+			<a href="./landingPage.html" class="nav_link">Home</a>
+			<a href="./testLibrary.html" class="nav_link active_link">Test Library</a>
+			<a href="" class="nav_link">Resource</a>
+			<a href="./pricing.html" class="nav_link">Pricing</a>
+			<a href="./faq.html" class="nav_link">FAQ</a>
+		</div>
+		<div class="navbar_user">
+			<button class="navbar_button">Login <img src="../public/icons/rightArrow.svg" alt=""></button>
+			<div class="" id="mobile-menu">
+				<img src="../imgs/hamburger-menu-svgrepo-com.svg" alt="hamburger-menu" srcset="">
+			</div>
+		</div>
+	</nav>
+	<nav class="mobile_navbar" id="mobile_navbar">
+		<a href="./landingPage.html" class="nav_link mobile">Home</a>
+		<a href="./testLibrary.html" class="nav_link mobile active_link">Test Library</a>
+		<a href="" class="nav_link">Resource</a>
+		<a href="./pricing.html" class="nav_link mobile">Pricing</a>
+		<a href="./faq.html" class="nav_link mobile">FAQ</a>
+	</nav>
+
+	<!-- main section -->
+	<main class="main">
+		<div class="test-library__section">
+			<h1 class="test-library__title">
+				Discover a Comprehensive Library of Tests for Every Role
+			</h1>
+			<p class="test-library__subtitle">
+				Explore and select from a wide range of expertly crafted test to
+				create the perfect assessment for your candidates
+			</p>
+
+			<div class="test-library__search-section">
+				<input type="text" class="test-library__search-input" placeholder="Search" />
+				<select name="" id="" class="test-library__select">
+					<option value="">Hello</option>
+				</select>
+			</div>
+			<div class="test-library__grid-wrapper">
+				<div class="test-library__grid">
+					<div class="test__card">
+						<p class="test__card-title">JavaScript Proficiency Test</p>
+						<div class="test__card-timer"><img src="../public/icons/clock.svg" alt=""> <span>10 min</span>
 						</div>
-						<div class="test__card">
-							<p class="test__card-title">JavaScript Proficiency Test</p>
-							<div class="test__card-timer"><img src="../public/icons/clock.svg" alt=""> <span>10 min</span></div>
-							<p class="test__card-details">Evaluate a candidate's knowledge in core JavaScript concepts, including ES6 syntax, DOM manipulation, and asynchronous programming.</p>
-							<p class="test__card-difficulty">Difficulty</p>
-							<p class="test__card-difficulty-level">Intermediate</p>
-							<p class="test__card-qestions">Number of Questions</p>
-							<p class="test__card-qestions-numbers">25 Questions</p>
-							<a href="./testPage.html" class="test__card-button">Details</a>
+						<p class="test__card-details">Evaluate a candidate's knowledge in core JavaScript concepts,
+							including ES6 syntax, DOM manipulation, and asynchronous programming.</p>
+						<p class="test__card-difficulty">Difficulty</p>
+						<p class="test__card-difficulty-level">Intermediate</p>
+						<p class="test__card-qestions">Number of Questions</p>
+						<p class="test__card-qestions-numbers">25 Questions</p>
+						<a href="./testPage.html" class="test__card-button">Details</a>
+					</div>
+					<div class="test__card">
+						<p class="test__card-title">JavaScript Proficiency Test</p>
+						<div class="test__card-timer"><img src="../public/icons/clock.svg" alt=""> <span>10 min</span>
 						</div>
-						<div class="test__card">
-							<p class="test__card-title">JavaScript Proficiency Test</p>
-							<div class="test__card-timer"><img src="../public/icons/clock.svg" alt=""> <span>10 min</span></div>
-							<p class="test__card-details">Evaluate a candidate's knowledge in core JavaScript concepts, including ES6 syntax, DOM manipulation, and asynchronous programming.</p>
-							<p class="test__card-difficulty">Difficulty</p>
-							<p class="test__card-difficulty-level">Intermediate</p>
-							<p class="test__card-qestions">Number of Questions</p>
-							<p class="test__card-qestions-numbers">25 Questions</p>
-							<a href="./testPage.html" class="test__card-button">Details</a>
+						<p class="test__card-details">Evaluate a candidate's knowledge in core JavaScript concepts,
+							including ES6 syntax, DOM manipulation, and asynchronous programming.</p>
+						<p class="test__card-difficulty">Difficulty</p>
+						<p class="test__card-difficulty-level">Intermediate</p>
+						<p class="test__card-qestions">Number of Questions</p>
+						<p class="test__card-qestions-numbers">25 Questions</p>
+						<a href="./testPage.html" class="test__card-button">Details</a>
+					</div>
+					<div class="test__card">
+						<p class="test__card-title">JavaScript Proficiency Test</p>
+						<div class="test__card-timer"><img src="../public/icons/clock.svg" alt=""> <span>10 min</span>
 						</div>
-						<div class="test__card">
-							<p class="test__card-title">JavaScript Proficiency Test</p>
-							<div class="test__card-timer"><img src="../public/icons/clock.svg" alt=""> <span>10 min</span></div>
-							<p class="test__card-details">Evaluate a candidate's knowledge in core JavaScript concepts, including ES6 syntax, DOM manipulation, and asynchronous programming.</p>
-							<p class="test__card-difficulty">Difficulty</p>
-							<p class="test__card-difficulty-level">Intermediate</p>
-							<p class="test__card-qestions">Number of Questions</p>
-							<p class="test__card-qestions-numbers">25 Questions</p>
-							<a href="./testPage.html" class="test__card-button">Details</a>
+						<p class="test__card-details">Evaluate a candidate's knowledge in core JavaScript concepts,
+							including ES6 syntax, DOM manipulation, and asynchronous programming.</p>
+						<p class="test__card-difficulty">Difficulty</p>
+						<p class="test__card-difficulty-level">Intermediate</p>
+						<p class="test__card-qestions">Number of Questions</p>
+						<p class="test__card-qestions-numbers">25 Questions</p>
+						<a href="./testPage.html" class="test__card-button">Details</a>
+					</div>
+					<div class="test__card">
+						<p class="test__card-title">JavaScript Proficiency Test</p>
+						<div class="test__card-timer"><img src="../public/icons/clock.svg" alt=""> <span>10 min</span>
 						</div>
-						<div class="test__card">
-							<p class="test__card-title">JavaScript Proficiency Test</p>
-							<div class="test__card-timer"><img src="../public/icons/clock.svg" alt=""> <span>10 min</span></div>
-							<p class="test__card-details">Evaluate a candidate's knowledge in core JavaScript concepts, including ES6 syntax, DOM manipulation, and asynchronous programming.</p>
-							<p class="test__card-difficulty">Difficulty</p>
-							<p class="test__card-difficulty-level">Intermediate</p>
-							<p class="test__card-qestions">Number of Questions</p>
-							<p class="test__card-qestions-numbers">25 Questions</p>
-							<a href="./testPage.html" class="test__card-button">Details</a>
+						<p class="test__card-details">Evaluate a candidate's knowledge in core JavaScript concepts,
+							including ES6 syntax, DOM manipulation, and asynchronous programming.</p>
+						<p class="test__card-difficulty">Difficulty</p>
+						<p class="test__card-difficulty-level">Intermediate</p>
+						<p class="test__card-qestions">Number of Questions</p>
+						<p class="test__card-qestions-numbers">25 Questions</p>
+						<a href="./testPage.html" class="test__card-button">Details</a>
+					</div>
+					<div class="test__card">
+						<p class="test__card-title">JavaScript Proficiency Test</p>
+						<div class="test__card-timer"><img src="../public/icons/clock.svg" alt=""> <span>10 min</span>
 						</div>
-						<div class="test__card">
-							<p class="test__card-title">JavaScript Proficiency Test</p>
-							<div class="test__card-timer"><img src="../public/icons/clock.svg" alt=""> <span>10 min</span></div>
-							<p class="test__card-details">Evaluate a candidate's knowledge in core JavaScript concepts, including ES6 syntax, DOM manipulation, and asynchronous programming.</p>
-							<p class="test__card-difficulty">Difficulty</p>
-							<p class="test__card-difficulty-level">Intermediate</p>
-							<p class="test__card-qestions">Number of Questions</p>
-							<p class="test__card-qestions-numbers">25 Questions</p>
-							<a href="./testPage.html" class="test__card-button">Details</a>
+						<p class="test__card-details">Evaluate a candidate's knowledge in core JavaScript concepts,
+							including ES6 syntax, DOM manipulation, and asynchronous programming.</p>
+						<p class="test__card-difficulty">Difficulty</p>
+						<p class="test__card-difficulty-level">Intermediate</p>
+						<p class="test__card-qestions">Number of Questions</p>
+						<p class="test__card-qestions-numbers">25 Questions</p>
+						<a href="./testPage.html" class="test__card-button">Details</a>
+					</div>
+					<div class="test__card">
+						<p class="test__card-title">JavaScript Proficiency Test</p>
+						<div class="test__card-timer"><img src="../public/icons/clock.svg" alt=""> <span>10 min</span>
 						</div>
-						<div class="test__card">
-							<p class="test__card-title">JavaScript Proficiency Test</p>
-							<div class="test__card-timer"><img src="../public/icons/clock.svg" alt=""> <span>10 min</span></div>
-							<p class="test__card-details">Evaluate a candidate's knowledge in core JavaScript concepts, including ES6 syntax, DOM manipulation, and asynchronous programming.</p>
-							<p class="test__card-difficulty">Difficulty</p>
-							<p class="test__card-difficulty-level">Intermediate</p>
-							<p class="test__card-qestions">Number of Questions</p>
-							<p class="test__card-qestions-numbers">25 Questions</p>
-							<a href="./testPage.html" class="test__card-button">Details</a>
+						<p class="test__card-details">Evaluate a candidate's knowledge in core JavaScript concepts,
+							including ES6 syntax, DOM manipulation, and asynchronous programming.</p>
+						<p class="test__card-difficulty">Difficulty</p>
+						<p class="test__card-difficulty-level">Intermediate</p>
+						<p class="test__card-qestions">Number of Questions</p>
+						<p class="test__card-qestions-numbers">25 Questions</p>
+						<a href="./testPage.html" class="test__card-button">Details</a>
+					</div>
+					<div class="test__card">
+						<p class="test__card-title">JavaScript Proficiency Test</p>
+						<div class="test__card-timer"><img src="../public/icons/clock.svg" alt=""> <span>10 min</span>
 						</div>
-						<div class="test__card">
-							<p class="test__card-title">JavaScript Proficiency Test</p>
-							<div class="test__card-timer"><img src="../public/icons/clock.svg" alt=""> <span>10 min</span></div>
-							<p class="test__card-details">Evaluate a candidate's knowledge in core JavaScript concepts, including ES6 syntax, DOM manipulation, and asynchronous programming.</p>
-							<p class="test__card-difficulty">Difficulty</p>
-							<p class="test__card-difficulty-level">Intermediate</p>
-							<p class="test__card-qestions">Number of Questions</p>
-							<p class="test__card-qestions-numbers">25 Questions</p>
-							<a href="./testPage.html" class="test__card-button">Details</a>
+						<p class="test__card-details">Evaluate a candidate's knowledge in core JavaScript concepts,
+							including ES6 syntax, DOM manipulation, and asynchronous programming.</p>
+						<p class="test__card-difficulty">Difficulty</p>
+						<p class="test__card-difficulty-level">Intermediate</p>
+						<p class="test__card-qestions">Number of Questions</p>
+						<p class="test__card-qestions-numbers">25 Questions</p>
+						<a href="./testPage.html" class="test__card-button">Details</a>
+					</div>
+					<div class="test__card">
+						<p class="test__card-title">JavaScript Proficiency Test</p>
+						<div class="test__card-timer"><img src="../public/icons/clock.svg" alt=""> <span>10 min</span>
 						</div>
-						<div class="test__card">
-							<p class="test__card-title">JavaScript Proficiency Test</p>
-							<div class="test__card-timer"><img src="../public/icons/clock.svg" alt=""> <span>10 min</span></div>
-							<p class="test__card-details">Evaluate a candidate's knowledge in core JavaScript concepts, including ES6 syntax, DOM manipulation, and asynchronous programming.</p>
-							<p class="test__card-difficulty">Difficulty</p>
-							<p class="test__card-difficulty-level">Intermediate</p>
-							<p class="test__card-qestions">Number of Questions</p>
-							<p class="test__card-qestions-numbers">25 Questions</p>
-							<a href="./testPage.html" class="test__card-button">Details</a>
+						<p class="test__card-details">Evaluate a candidate's knowledge in core JavaScript concepts,
+							including ES6 syntax, DOM manipulation, and asynchronous programming.</p>
+						<p class="test__card-difficulty">Difficulty</p>
+						<p class="test__card-difficulty-level">Intermediate</p>
+						<p class="test__card-qestions">Number of Questions</p>
+						<p class="test__card-qestions-numbers">25 Questions</p>
+						<a href="./testPage.html" class="test__card-button">Details</a>
+					</div>
+					<div class="test__card">
+						<p class="test__card-title">JavaScript Proficiency Test</p>
+						<div class="test__card-timer"><img src="../public/icons/clock.svg" alt=""> <span>10 min</span>
 						</div>
+						<p class="test__card-details">Evaluate a candidate's knowledge in core JavaScript concepts,
+							including ES6 syntax, DOM manipulation, and asynchronous programming.</p>
+						<p class="test__card-difficulty">Difficulty</p>
+						<p class="test__card-difficulty-level">Intermediate</p>
+						<p class="test__card-qestions">Number of Questions</p>
+						<p class="test__card-qestions-numbers">25 Questions</p>
+						<a href="./testPage.html" class="test__card-button">Details</a>
 					</div>
 				</div>
 			</div>
-		</main>
-	</body>
+		</div>
+	</main>
+</body>
+<script src="../scripts/script.js"></script>
+
 </html>

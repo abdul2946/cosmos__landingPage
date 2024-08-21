@@ -1,245 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="../css/landing.css" />
-		<title>Pricing</title>
-	</head>
 
-	<body>
-		<!-- Navbar -->
-		<nav class="navbar">
-			<div class="navbar_links">
-				<img src="../public/logo.svg" alt="logo" />
-				<a href="./landingPage.html" class="nav_link">Home</a>
-				<a href="./testLibrary.html" class="nav_link">Test Library</a>
-				<a href="" class="nav_link">Resource</a>
-				<a href="./pricing.html" class="nav_link active_link">Pricing</a>
-				<a href="./faq.html" class="nav_link">FAQ</a>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="../css/landing.css" />
+	<title>Pricing</title>
+</head>
+
+<body>
+	<!-- Navbar -->
+	<nav class="navbar">
+		<div class="navbar_links">
+			<img src="../public/logo.svg" alt="logo" />
+			<a href="./landingPage.html" class="nav_link">Home</a>
+			<a href="./testLibrary.html" class="nav_link">Test Library</a>
+			<a href="" class="nav_link">Resource</a>
+			<a href="./pricing.html" class="nav_link active_link">Pricing</a>
+			<a href="./faq.html" class="nav_link">FAQ</a>
+		</div>
+		<div class="navbar_user">
+			<button class="navbar_button">
+				Login <img src="../public/icons/rightArrow.svg" alt="" />
+			</button>
+			<div class="" id="mobile-menu">
+				<img src="../imgs/hamburger-menu-svgrepo-com.svg" alt="hamburger-menu" srcset="">
 			</div>
-			<div class="navbar_user">
-				<button class="navbar_button">
-					Login <img src="../public/icons/rightArrow.svg" alt="" />
+		</div>
+	</nav>
+	<nav class="mobile_navbar" id="mobile_navbar">
+		<a href="./landingPage.html" class="nav_link mobile">Home</a>
+		<a href="./testLibrary.html" class="nav_link mobile">Test Library</a>
+		<a href="" class="nav_link">Resource</a>
+		<a href="./pricing.html" class="nav_link mobile active_link">Pricing</a>
+		<a href="./faq.html" class="nav_link mobile">FAQ</a>
+	</nav>
+	<main class="main">
+		<h1 class="test-library__title">
+			Choose the Right Plan for Your Hiring Needs
+		</h1>
+		<p class="test-library__subtitle">
+			Whether you're a small business or a large enterprise, our flexible
+			pricing options are designed to fit your recruitment goals.
+		</p>
+		<div class="pricing__cnt">
+			<div class="pricing__card">
+				<div class="pricing__card-title">Basic</div>
+				<div class="pricing__card-pricing">
+					<span class="pricing__card-amount">$0</span>
+					<span class="pricing__card-month">/ Month</span>
+				</div>
+				<ul class="pricing__feature-list">
+					<li>
+						<img src="../public/icons/greenCheck.svg" alt="" /><span class="pricing__feature-bold">5% fee
+							per transaction*</span>
+					</li>
+					<li>
+						<img src="../public/icons/grayCheck.svg" alt="" />
+						<span>Test Library Access</span>
+					</li>
+					<li>
+						<img src="../public/icons/grayCheck.svg" alt="" /><span>Number of Assessments</span>
+					</li>
+					<li>
+						<img src="../public/icons/grayCheck.svg" alt="" /><span>AI-Based Predictive Scoring</span>
+					</li>
+					<li>
+						<img src="../public/icons/grayCheck.svg" alt="" /><span>Proactive AI Insights</span>
+					</li>
+					<li>
+						<img src="../public/icons/grayCheck.svg" alt="" /><span>Reporting and Analytics</span>
+					</li>
+					<li>
+						<img src="../public/icons/grayCheck.svg" alt="" /><span>Support</span>
+					</li>
+				</ul>
+				<button data-open-basic-modal class="pricing__button">
+					Choose plan
 				</button>
-			</div>
-		</nav>
-		<main class="main">
-			<h1 class="test-library__title">
-				Choose the Right Plan for Your Hiring Needs
-			</h1>
-			<p class="test-library__subtitle">
-				Whether you're a small business or a large enterprise, our flexible
-				pricing options are designed to fit your recruitment goals.
-			</p>
-			<div class="pricing__cnt">
-				<div class="pricing__card">
-					<div class="pricing__card-title">Basic</div>
-					<div class="pricing__card-pricing">
-						<span class="pricing__card-amount">$0</span>
-						<span class="pricing__card-month">/ Month</span>
+
+				<dialog data-basic-modal class="pricing__modal">
+					<div class="pricing__modal-content">
+						<ul class="pricing__feature-list">
+							<li>
+								<img src="../public/icons/greenCheck.svg" alt="" /><span
+									class="pricing__feature-bold">5% fee per transaction*</span>
+							</li>
+							<li>
+								<img src="../public/icons/grayCheck.svg" alt="" />
+								<span>Test Library Access</span>
+							</li>
+							<li>
+								<img src="../public/icons/grayCheck.svg" alt="" /><span>Number of Assessments</span>
+							</li>
+							<li>
+								<img src="../public/icons/grayCheck.svg" alt="" /><span>AI-Based Predictive
+									Scoring</span>
+							</li>
+							<li>
+								<img src="../public/icons/grayCheck.svg" alt="" /><span>Proactive AI Insights</span>
+							</li>
+							<li>
+								<img src="../public/icons/grayCheck.svg" alt="" /><span>Reporting and Analytics</span>
+							</li>
+							<li>
+								<img src="../public/icons/grayCheck.svg" alt="" /><span>Support</span>
+							</li>
+						</ul>
 					</div>
-					<ul class="pricing__feature-list">
-						<li>
-							<img src="../public/icons/greenCheck.svg" alt="" /><span
-								class="pricing__feature-bold"
-								>5% fee per transaction*</span
-							>
-						</li>
-						<li>
-							<img src="../public/icons/grayCheck.svg" alt="" />
-							<span>Test Library Access</span>
-						</li>
-						<li>
-							<img src="../public/icons/grayCheck.svg" alt="" /><span
-								>Number of Assessments</span
-							>
-						</li>
-						<li>
-							<img src="../public/icons/grayCheck.svg" alt="" /><span
-								>AI-Based Predictive Scoring</span
-							>
-						</li>
-						<li>
-							<img src="../public/icons/grayCheck.svg" alt="" /><span
-								>Proactive AI Insights</span
-							>
-						</li>
-						<li>
-							<img src="../public/icons/grayCheck.svg" alt="" /><span
-								>Reporting and Analytics</span
-							>
-						</li>
-						<li>
-							<img src="../public/icons/grayCheck.svg" alt="" /><span
-								>Support</span
-							>
-						</li>
-					</ul>
-					<button data-open-basic-modal class="pricing__button">
-						Choose plan
+					<button data-close-basic-modal class="pricing__modal-close">
+						Close
 					</button>
-
-					<dialog data-basic-modal class="pricing__modal">
-						<div class="pricing__modal-content">
-							<ul class="pricing__feature-list">
-								<li>
-									<img src="../public/icons/greenCheck.svg" alt="" /><span
-										class="pricing__feature-bold"
-										>5% fee per transaction*</span
-									>
-								</li>
-								<li>
-									<img src="../public/icons/grayCheck.svg" alt="" />
-									<span>Test Library Access</span>
-								</li>
-								<li>
-									<img src="../public/icons/grayCheck.svg" alt="" /><span
-										>Number of Assessments</span
-									>
-								</li>
-								<li>
-									<img src="../public/icons/grayCheck.svg" alt="" /><span
-										>AI-Based Predictive Scoring</span
-									>
-								</li>
-								<li>
-									<img src="../public/icons/grayCheck.svg" alt="" /><span
-										>Proactive AI Insights</span
-									>
-								</li>
-								<li>
-									<img src="../public/icons/grayCheck.svg" alt="" /><span
-										>Reporting and Analytics</span
-									>
-								</li>
-								<li>
-									<img src="../public/icons/grayCheck.svg" alt="" /><span
-										>Support</span
-									>
-								</li>
-							</ul>
-						</div>
-						<button data-close-basic-modal class="pricing__modal-close">
-							Close
-						</button>
-					</dialog>
-				</div>
-				<div class="pricing__card">
-					<div class="pricing__card-title">Premium</div>
-					<div class="pricing__card-pricing">
-						<span class="pricing__card-amount">$60</span>
-						<span class="pricing__card-month">/ Month</span>
-					</div>
-					<ul class="pricing__feature-list">
-						<li>
-							<img src="../public/icons/greenCheck.svg" alt="" /><span
-								class="pricing__feature-bold"
-								>5% fee per transaction*</span
-							>
-						</li>
-						<li>
-							<img src="../public/icons/greenCheck.svg" alt="" />
-							<span>Test Library Access</span>
-						</li>
-						<li>
-							<img src="../public/icons/greenCheck.svg" alt="" /><span
-								>Number of Assessments</span
-							>
-						</li>
-						<li>
-							<img src="../public/icons/greenCheck.svg" alt="" /><span
-								>AI-Based Predictive Scoring</span
-							>
-						</li>
-						<li>
-							<img src="../public/icons/greenCheck.svg" alt="" /><span
-								>Proactive AI Insights</span
-							>
-						</li>
-						<li>
-							<img src="../public/icons/greenCheck.svg" alt="" /><span
-								>Reporting and Analytics</span
-							>
-						</li>
-						<li>
-							<img src="../public/icons/greenCheck.svg" alt="" /><span
-								>Support</span
-							>
-						</li>
-					</ul>
-					<button data-open-premium-modal class="pricing__button">
-						Choose plan
-					</button>
-					<dialog data-premium-modal class="pricing__modal">
-						<div class="pricing__modal-content">
-							<ul class="pricing__feature-list">
-								<li>
-									<img src="../public/icons/greenCheck.svg" alt="" /><span
-										class="pricing__feature-bold"
-										>5% fee per transaction*</span
-									>
-								</li>
-								<li>
-									<img src="../public/icons/greenCheck.svg" alt="" />
-									<span>Test Library Access</span>
-								</li>
-								<li>
-									<img src="../public/icons/greenCheck.svg" alt="" /><span
-										>Number of Assessments</span
-									>
-								</li>
-								<li>
-									<img src="../public/icons/greenCheck.svg" alt="" /><span
-										>AI-Based Predictive Scoring</span
-									>
-								</li>
-								<li>
-									<img src="../public/icons/greenCheck.svg" alt="" /><span
-										>Proactive AI Insights</span
-									>
-								</li>
-								<li>
-									<img src="../public/icons/greenCheck.svg" alt="" /><span
-										>Reporting and Analytics</span
-									>
-								</li>
-								<li>
-									<img src="../public/icons/greenCheck.svg" alt="" /><span
-										>Support</span
-									>
-								</li>
-							</ul>
-						</div>
-						<button data-close-premium-modal class="pricing__modal-close">
-							Close
-						</button>
-					</dialog>
-				</div>
+				</dialog>
 			</div>
-		</main>
-	</body>
-	<script>
-		const openBasic = document.querySelector("[data-open-basic-modal]");
-		const closeBasic = document.querySelector("[data-close-basic-modal]");
-		const basicModal = document.querySelector("[data-basic-modal]");
+			<div class="pricing__card">
+				<div class="pricing__card-title">Premium</div>
+				<div class="pricing__card-pricing">
+					<span class="pricing__card-amount">$60</span>
+					<span class="pricing__card-month">/ Month</span>
+				</div>
+				<ul class="pricing__feature-list">
+					<li>
+						<img src="../public/icons/greenCheck.svg" alt="" /><span class="pricing__feature-bold">5% fee
+							per transaction*</span>
+					</li>
+					<li>
+						<img src="../public/icons/greenCheck.svg" alt="" />
+						<span>Test Library Access</span>
+					</li>
+					<li>
+						<img src="../public/icons/greenCheck.svg" alt="" /><span>Number of Assessments</span>
+					</li>
+					<li>
+						<img src="../public/icons/greenCheck.svg" alt="" /><span>AI-Based Predictive Scoring</span>
+					</li>
+					<li>
+						<img src="../public/icons/greenCheck.svg" alt="" /><span>Proactive AI Insights</span>
+					</li>
+					<li>
+						<img src="../public/icons/greenCheck.svg" alt="" /><span>Reporting and Analytics</span>
+					</li>
+					<li>
+						<img src="../public/icons/greenCheck.svg" alt="" /><span>Support</span>
+					</li>
+				</ul>
+				<button data-open-premium-modal class="pricing__button">
+					Choose plan
+				</button>
+				<dialog data-premium-modal class="pricing__modal">
+					<div class="pricing__modal-content">
+						<ul class="pricing__feature-list">
+							<li>
+								<img src="../public/icons/greenCheck.svg" alt="" /><span
+									class="pricing__feature-bold">5% fee per transaction*</span>
+							</li>
+							<li>
+								<img src="../public/icons/greenCheck.svg" alt="" />
+								<span>Test Library Access</span>
+							</li>
+							<li>
+								<img src="../public/icons/greenCheck.svg" alt="" /><span>Number of Assessments</span>
+							</li>
+							<li>
+								<img src="../public/icons/greenCheck.svg" alt="" /><span>AI-Based Predictive
+									Scoring</span>
+							</li>
+							<li>
+								<img src="../public/icons/greenCheck.svg" alt="" /><span>Proactive AI Insights</span>
+							</li>
+							<li>
+								<img src="../public/icons/greenCheck.svg" alt="" /><span>Reporting and Analytics</span>
+							</li>
+							<li>
+								<img src="../public/icons/greenCheck.svg" alt="" /><span>Support</span>
+							</li>
+						</ul>
+					</div>
+					<button data-close-premium-modal class="pricing__modal-close">
+						Close
+					</button>
+				</dialog>
+			</div>
+		</div>
+	</main>
+</body>
+<script>
+	const openBasic = document.querySelector("[data-open-basic-modal]");
+	const closeBasic = document.querySelector("[data-close-basic-modal]");
+	const basicModal = document.querySelector("[data-basic-modal]");
 
-		const openPremium = document.querySelector("[data-open-premium-modal]");
-		const closePremium = document.querySelector("[data-close-premium-modal]");
-		const premiumModal = document.querySelector("[data-premium-modal]");
+	const openPremium = document.querySelector("[data-open-premium-modal]");
+	const closePremium = document.querySelector("[data-close-premium-modal]");
+	const premiumModal = document.querySelector("[data-premium-modal]");
 
-		openBasic.addEventListener("click", () => {
-			basicModal.showModal();
-		});
-		closeBasic.addEventListener("click", () => {
-			basicModal.close();
-		});
+	openBasic.addEventListener("click", () => {
+		basicModal.showModal();
+	});
+	closeBasic.addEventListener("click", () => {
+		basicModal.close();
+	});
 
-		openPremium.addEventListener("click", () => {
-			premiumModal.showModal();
-		});
-		closePremium.addEventListener("click", () => {
-			premiumModal.close();
-		});
-	</script>
+	openPremium.addEventListener("click", () => {
+		premiumModal.showModal();
+	});
+	closePremium.addEventListener("click", () => {
+		premiumModal.close();
+	});
+</script>
+<script src="../scripts/script.js"></script>
+
 </html>
