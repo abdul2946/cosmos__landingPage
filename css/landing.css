@@ -1408,7 +1408,7 @@
 .eachdiv {
 	padding: 1rem 2rem;
 	border-radius: 0.8rem;
-	box-shadow: 5px 5px 20px #6d6b6b6b;
+	box-shadow: .5rem .5rem 1rem #6d6b6b6b;
 	color: white;
 }
 
