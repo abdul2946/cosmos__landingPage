@@ -275,14 +275,65 @@
 	}
 }
 
+@media screen and (min-width:320px) {
+	* {
+		font-size: 14.5px;
+	}
+}
+
+
 /* Navbar */
 .navbar {
+	/* position: relative; */
 	display: flex;
 	justify-content: space-between;
 	padding: 1rem 2.5rem;
 	align-items: center;
 	box-shadow: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 0.05);
 	border-bottom: 1px solid rgba(209, 213, 219, 1);
+	overflow: hidden;
+}
+
+
+.mobile_navbar_cnt {
+	position: relative;
+	overflow: hidden;
+	z-index: 1000;
+}
+
+.mobile_navbar {
+	position: absolute;
+	top: 105px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: white;
+	z-index: 1001;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+	font-size: 1rem;
+	padding: 2rem 1.5rem;
+	row-gap: 3rem;
+	transform: translateX(-219%);
+	width: 0;
+	height: 100vh;
+	overflow: hidden;
+	transition: .5s ease-in-out;
+}
+
+.mobile_navbar.nav--open {
+	transform: translateX(0%);
+	width: 100%;
+}
+
+#mobile-menu {
+	display: none;
+}
+
+#mobile-menu img {
+	width: 50px;
 }
 
 .navbar_links {
@@ -557,6 +608,7 @@
 /* Client Review section */
 .client {
 	min-height: 100vh;
+	display: none;
 }
 
 .client__title {
@@ -1248,4 +1300,27 @@
 	padding: 0.5rem 1.75rem;
 	border-radius: 0.25rem;
 	font-weight: 600;
+}
+
+@media screen and (max-width: 719px) {
+	#mobile-menu {
+		display: block;
+	}
+
+	.nav_link.mobile {
+		display: block;
+	}
+
+	.mobile_navbar .nav_link.mobile {
+		display: block;
+		font-size: 2.2rem;
+
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.indebth__title {
+		width: auto;
+	}
+
 }
